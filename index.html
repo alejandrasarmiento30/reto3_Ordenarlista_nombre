@@ -1,32 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ordenar Arrays de Cadenas </title>
+
+    <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
-    
     
     <div class="container">
         <h1>Ordenar Arrays de Cadenas</h1>
         <hr>
-        <p>ingrese nombres en la caja de texto de abajo y ordene este listado</p>
+        <p class="instruccion">
+            ingrese nombres en la caja de texto de abajo y ordene este listado
+        </p>
 
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" placeholder="ingrese el nombre">
-        <button id="btnAgregar">agregar y ordenar </button>
-
-    
-
+        <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" placeholder="ingrese el nombre">
+            <button id="btnAgregar">agregar y ordenar </button>
+        </div>
+        
         <h2>Nombres ordenados</h2>
         <hr>
+        
         <div class="nombresOrdenados">
             <textarea id="resultadoTextarea" readonly placeholder="Aqui apareceran lo nombres ordenados"></textarea>
             <button id="btnLimpiar" type="button">Limpiar</button>
         </div>
-
     </div>
+
+    <script src="script.js"></script>
 
 </body> 
 
